@@ -22,4 +22,4 @@ private:
     int KitnaFull=0;
 };
 
-#endif // LINEARPROBING_H
+#endif 

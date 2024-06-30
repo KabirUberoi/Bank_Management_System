@@ -65,7 +65,7 @@ int QuadraticProbing::hash(std::string id) {
         ans+=((id[i]-48)*p[i-1]);
         ans = ans%200003;
     }
-    return ans; // Placeholder return value
+    return ans; 
 }
 
 void QuadraticProbing::createAccount(std::string id, int count) {
@@ -197,6 +197,5 @@ bool QuadraticProbing::deleteAccount(std::string id) {
     return false;
 }
 int QuadraticProbing::databaseSize() {
-    // IMPLEMENT YOUR CODE HERE
-    return KitnaFull; // Placeholder return value
+    return KitnaFull; 
 }

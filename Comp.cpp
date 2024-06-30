@@ -64,7 +64,7 @@ int Comp::hash(std::string id) {
         ans+=((id[i]-48)*p[i-1]);
         ans = ans%capacity;
     }
-    return ans; // Placeholder return value
+    return ans; 
 }
 
 void Comp::createAccount(std::string id, int count) {
@@ -150,7 +150,7 @@ bool Comp::doesExist(std::string id) {
             if(bankStorage2d[hval][i].id==id){return true;}
         }
     }
-    return false; // Placeholder return value
+    return false;
 }
 
 bool Comp::deleteAccount(std::string id) {
@@ -164,12 +164,10 @@ bool Comp::deleteAccount(std::string id) {
             }
         }
     }
-    return false; // Placeholder return value
+    return false; 
 }
 int Comp::databaseSize() {
     return KitnaFull;
 }
 
 
-// Feel free to add any other helper functions you need
-// Good Luck!

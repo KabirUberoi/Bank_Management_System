@@ -21,7 +21,6 @@ private:
     int p[21] = {};
     int capacity = 10000;
     int KitnaFull=0;
-    // Other data members and functions specific to Your implementation
 };
 
-#endif // COMP_H
+#endif

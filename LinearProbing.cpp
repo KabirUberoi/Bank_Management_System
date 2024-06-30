@@ -66,7 +66,7 @@ int LinearProbing::hash(std::string id) {
         ans+=((id[i]-48)*p[i-1]);
         ans = ans%capacity;
     }
-    return ans; // Placeholder return value
+    return ans;
 }
 
 void LinearProbing::createAccount(std::string id, int count) {
@@ -155,7 +155,7 @@ bool LinearProbing::doesExist(std::string id) {
             return true;
         }
     }
-    return false; // Placeholder return value
+    return false;
 }
 
 bool LinearProbing::deleteAccount(std::string id) {
@@ -178,9 +178,9 @@ bool LinearProbing::deleteAccount(std::string id) {
             return true;
         }
     }
-    return false; // Placeholder return value
+    return false;
 }
-int LinearProbing::databaseSize() {// IMPLEMENT YOUR CODE HERE
-    return KitnaFull; // Placeholder return value
+int LinearProbing::databaseSize() {
+    return KitnaFull;
 }
 

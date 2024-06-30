@@ -65,7 +65,7 @@ int CubicProbing::hash(std::string id) {
         ans+=((id[i]-48)*p[i-1]);
         ans = ans%200003;
     }
-    return ans; // Placeholder return value
+    return ans; 
 }
 
 void CubicProbing::createAccount(std::string id, int count) {
@@ -168,7 +168,7 @@ bool CubicProbing::doesExist(std::string id) {
             return true;
         }
     }
-    return false; // Placeholder return value
+    return false; 
 }
 
 bool CubicProbing::deleteAccount(std::string id) {
@@ -197,6 +197,5 @@ bool CubicProbing::deleteAccount(std::string id) {
     return false;
 }
 int CubicProbing::databaseSize() {
-    // IMPLEMENT YOUR CODE HERE
-    return KitnaFull; // Placeholder return value
+    return KitnaFull;
 }

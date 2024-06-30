@@ -19,7 +19,7 @@ public:
 private:
     int p[21] = {};
     int KitnaFull=0;
-    int capacity = 1024;// Other data members and functions specific to Quadratic Probing
+    int capacity = 1024;
 };
 
-#endif // CUBICPROBING_H
+#endif 

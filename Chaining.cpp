@@ -64,7 +64,7 @@ int Chaining::hash(std::string id) {
         ans+=((id[i]-48)*p[i-1]);
         ans = ans%capacity;
     }
-    return ans; // Placeholder return value
+    return ans; 
 }
 
 void Chaining::createAccount(std::string id, int count) {
@@ -150,7 +150,7 @@ bool Chaining::doesExist(std::string id) {
             if(bankStorage2d[hval][i].id==id){return true;}
         }
     }
-    return false; // Placeholder return value
+    return false; 
 }
 
 bool Chaining::deleteAccount(std::string id) {
@@ -164,9 +164,9 @@ bool Chaining::deleteAccount(std::string id) {
             }
         }
     }
-    return false; // Placeholder return value
+    return false;
 }
-int Chaining::databaseSize() {// IMPLEMENT YOUR CODE HERE
-    return BaseSize; // Placeholder return value
+int Chaining::databaseSize() {
+    return BaseSize;
 }
 
